@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_exercise2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kaktusx.menuex.exercise2">
+
+    <TextView
+        android:text="RED"
+        android:background="#FF0000"
+        android:layout_width="wrap_content"
+        android:id="@+id/RED"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:elevation="0dp"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:elegantTextHeight="false"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/YELLOW"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/YELLOW" />
+
+    <TextView
+        android:text="ORANGE"
+        android:background="#FFA500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ORANGE"
+        android:textSize="24sp"
+        android:padding="16dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/YELLOW"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/YELLOW"
+        />
+
+    <TextView
+        android:text="YELLOW"
+        android:background="#FFFF00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/YELLOW"
+        android:padding="16dp"
+        android:textSize="24sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:text="GREEN"
+        android:background="#008000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:id="@+id/GREEN"
+        app:layout_constraintBaseline_toBaselineOf="@+id/YELLOW"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/YELLOW" />
+
+    <TextView
+        android:text="BLUE"
+        android:background="#0000FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:id="@+id/BLUE"
+        android:textColor="@android:color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/YELLOW"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/YELLOW" />
+
+    <TextView
+        android:text="INDIGO"
+        android:background="#4B0082"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:id="@+id/INDIGO"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/YELLOW"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/YELLOW"
+        android:layout_marginLeft="3dp" />
+
+    <TextView
+        android:text="VIOLET"
+        android:background="#EE82EE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:id="@+id/VIOLET"
+        app:layout_constraintBaseline_toBaselineOf="@+id/YELLOW"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/YELLOW" />
+</android.support.constraint.ConstraintLayout>
